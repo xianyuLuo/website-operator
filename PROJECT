@@ -1,0 +1,11 @@
+domain: xianyuluo.com
+layout: go.kubebuilder.io/v2
+projectName: website-operator
+repo: github.com/xianyuluo/website-operator
+resources:
+- group: website
+  kind: Website
+  version: v1
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}

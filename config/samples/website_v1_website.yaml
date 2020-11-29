@@ -1,0 +1,7 @@
+apiVersion: website.xianyuluo.com/v1
+kind: Website
+metadata:
+  name: website-sample
+spec:
+  # Add fields here
+  foo: bar

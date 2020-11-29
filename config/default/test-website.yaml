@@ -1,0 +1,12 @@
+apiVersion: website.xianyuluo.com/v1
+kind: Website
+metadata:
+  name: nginx-app
+  namespace: website-operator-system
+spec:
+  size: 3
+  image: xianyuluo/nginx:1.12.2.website-operator
+  port:
+    - port: 80
+      targetPort: 80
+
